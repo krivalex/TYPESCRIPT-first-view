@@ -1,17 +1,13 @@
-interface UserConfig {
-  userID: string
-  name: string
-  surname: string
-  image_link: string
-  age: number
-}
+import Circle from './OOP/base'
 
-let user: UserConfig = {
-  userID: '123',
-  name: 'John',
-  surname: 'Doe',
-  image_link: 'https://www.google.com',
-  age: 25,
-}
+console.log('-------------------')
+console.log('server is running...')
+console.log('-------------------')
 
-console.log(user)
+const circle = new Circle('red', 10)
+console.log(circle.areaCalc())
+console.log(circle.pi)
+circle.pi = 3.44159265359
+
+console.log(circle.pi)
+console.log(circle.pi)
