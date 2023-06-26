@@ -8,7 +8,7 @@ class Circle {
         this.stroke = stroke || 'black';
     }
     areaCalc() {
-        return Math.PI * this.radius ** 2;
+        return Math.PI * Math.pow(this.radius, 2);
     }
     get pi() {
         return this._pi;

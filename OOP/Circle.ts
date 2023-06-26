@@ -1,7 +1,7 @@
 class Circle {
-  color: string
-  radius: number
-  stroke: string
+  public color: string
+  public radius: number
+  public stroke: string
   private _pi: number = 3.14
 
   constructor(color: string, radius: number, stroke?: string) {
@@ -10,16 +10,16 @@ class Circle {
     this.stroke = stroke || 'black'
   }
 
-  areaCalc(): number {
-    return Math.PI * this.radius ** 2
+  public areaCalc(): number {
+    return this._pi * this.radius ** 2
   }
 
-  get pi(): number {
+  public get pi(): number {
     return this._pi
   }
 
-  set pi(value: number) {
-    this._pi = value
+  public changePiForFun(pi: number) {
+    this._pi = pi
   }
 }
 
