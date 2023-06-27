@@ -5,13 +5,13 @@ enum EnumRole {
 }
 
 let userRole: EnumRole = EnumRole.Admin
-console.log(userRole) // 1
+console.log(userRole)
 
 let userRole2: EnumRole = EnumRole.User
-console.log(userRole2) // 2
+console.log(userRole2)
 
 let userRole3: EnumRole = EnumRole.Guest
-console.log(userRole3) // 3
+console.log(userRole3)
 
 enum EnumRole2 {
   ADMIN = 'admin',
