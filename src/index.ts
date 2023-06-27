@@ -1,7 +1,7 @@
 // OOP - Object Oriented Programming
 
-import Circle from '../OOP/Circle'
-import Dogectagon from '../OOP/Dogectagon'
+import Circle from './OOP/Circle'
+import Dogectagon from './OOP/Dogectagon'
 
 console.log('-------------------')
 console.log('server is running...')
