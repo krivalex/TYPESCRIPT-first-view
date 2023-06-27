@@ -12,3 +12,18 @@ console.log(userRole2) // 2
 
 let userRole3: EnumRole = EnumRole.Guest
 console.log(userRole3) // 3
+
+enum EnumRole2 {
+  ADMIN = 'admin',
+  USER = 'user',
+  GUEST = 'guest',
+}
+
+let userRole4: EnumRole2 = EnumRole2.ADMIN
+console.log(userRole4) // 0
+
+let userRole5: EnumRole2 = EnumRole2.USER
+console.log(userRole5) // 1
+
+let userRole6: EnumRole2 = EnumRole2.GUEST
+console.log(userRole6) // 2
