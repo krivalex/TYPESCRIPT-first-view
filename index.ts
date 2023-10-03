@@ -15,3 +15,7 @@
 
 // const dogectagon = new Dogectagon('red', 10)
 // console.log(dogectagon.areaCalc())
+
+import summa from './Syntax/hoisting'
+
+console.log(summa(1, 2))
